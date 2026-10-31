@@ -16,6 +16,7 @@ window.WEDDING_DATA = {
     dayLine: "Sunday, 6th December 2026",
     timeLine: "12:00 PM onwards",
     calendarNote: "Save the date",
+    countdownTitle: "Counting down to the afternoon",
     // start and end are ISO local time strings (drives countdown and calendar invites)
     start: "2026-12-06T12:00:00",
     end: "2026-12-06T16:00:00",
@@ -44,5 +45,11 @@ window.WEDDING_DATA = {
     couple: "./editable/assets/couple.png",
     footerBg: "./editable/assets/footer-bg.jpg",
     map: "./editable/assets/map.jpg",
+  },
+
+  music: {
+    src: "./editable/assets/bg-music.mp3",
+    title: "Neenaade Naa",
+    autoplay: true,
   },
 };
