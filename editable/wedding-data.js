@@ -5,12 +5,12 @@
 
 window.WEDDING_DATA = {
   couple: {
-    groom: "Chandan",
     bride: "Varshini",
+    groom: "Chandan",
   },
 
   wedding: {
-    eventTitle: "Wedding Reception of Chandan & Varshini",
+    eventTitle: "Wedding Reception of Varshini & Chandan",
     eventSubtitle: "Join us for the wedding reception of",
     dateLabel: "06.12.26",
     dayLine: "Sunday, 6th December 2026",
