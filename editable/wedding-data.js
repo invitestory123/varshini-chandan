@@ -7,6 +7,8 @@ window.WEDDING_DATA = {
   couple: {
     bride: "Varshini",
     groom: "Chandan",
+    brideParents: "(D/o Smt. Dr. Jyothi & Sri Dr. Nagarajaiah)",
+    groomParents: "(S/o Smt. Anitha R. & Sri Rajashekar S.)",
   },
 
   wedding: {
@@ -24,8 +26,8 @@ window.WEDDING_DATA = {
   },
 
   invitation: {
-    note: "Smt. Dr. Jyothi & Sri Dr. Nagarajaiah request the honor of your presence with family and friends on the auspicious occasion of the wedding reception of their younger daughter Chi.Sou. Varshini T.N. with Chi.Ry. Chandan R. (S/o Smt. Anitha R. & Sri Rajashekar S.).",
-    closing: "Awaiting your gracious presence",
+    note: "Smt. Dr. Jyothi & Sri Dr. Nagarajaiah request the honor of your presence with family and friends on the auspicious occasion of the wedding reception of their younger daughter Chi.Sou. Varshini T.N. (D/o Smt. Dr. Jyothi & Sri Dr. Nagarajaiah) with Chi.Ry. Chandan R. (S/o Smt. Anitha R. & Sri Rajashekar S.).",
+    closing: "Awaiting your presence",
   },
 
   venue: {
