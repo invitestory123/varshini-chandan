@@ -31,11 +31,15 @@ Edit `venue` in `editable/wedding-data.js`:
 - `venue.query`: search query used for automatic Google Maps directions/links
 - `venue.mapSearchUrl` & `venue.directionsUrl`: optional custom URL overrides
 
-### Images
-Replace files directly in `editable/assets/` or update paths in `images` in `editable/wedding-data.js`:
-- Hero / Couple illustration: `editable/assets/couple.png`
+### Images & Gallery
+Replace files directly in `editable/assets/` or update paths in `wedding-data.js`:
+- Hero / Couple portrait: `editable/assets/couple.png`
 - Footer background: `editable/assets/footer-bg.jpg`
 - Venue map graphic: `editable/assets/map.jpg`
+- Photo Gallery: `gallery.items` in `editable/wedding-data.js` (`editable/assets/gallery-1.jpg` through `gallery-5.jpg`)
+
+### Background Music
+- Configured in `music` block in `editable/wedding-data.js` (`editable/assets/bg-music.mp3`).
 
 ---
 
@@ -43,8 +47,9 @@ Replace files directly in `editable/assets/` or update paths in `images` in `edi
 
 - **Wax Seal Opener Gate**: Fullscreen intro that opens on tap or click with petal animations. Monogram badge and city derive automatically from `couple` and `venue.city`.
 - **Countdown**: Real-time counter derived from `wedding.start` + `wedding.timeZoneOffset`.
+- **Photo Gallery**: Responsive masonry grid with full-screen interactive lightbox viewer.
+- **Background Music**: Autoplays on opening the wax seal with animated equalizer toggle button.
 - **Calendar & Share Action Bar**: Fixed bottom bar allows guests to save `.ics` file, open Google Calendar, view directions, or share/copy invitation link.
-- **Audio / Video / Gallery**: None in this template design.
 
 ---
 

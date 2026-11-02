@@ -7,8 +7,6 @@ window.WEDDING_DATA = {
   couple: {
     bride: "Varshini",
     groom: "Chandan",
-    brideParents: "(D/o Smt. Dr. Jyothi & Sri Dr. Nagarajaiah)",
-    groomParents: "(S/o Smt. Anitha R. & Sri Rajashekar S.)",
   },
 
   wedding: {
@@ -26,8 +24,8 @@ window.WEDDING_DATA = {
   },
 
   invitation: {
-    note: "Smt. Dr. Jyothi & Sri Dr. Nagarajaiah request the honor of your presence with family and friends on the auspicious occasion of the wedding reception of their younger daughter Chi.Sou. Varshini T.N. (D/o Smt. Dr. Jyothi & Sri Dr. Nagarajaiah) with Chi.Ry. Chandan R. (S/o Smt. Anitha R. & Sri Rajashekar S.).",
-    closing: "Awaiting your presence",
+    note: "Smt. Dr. Jyothi & Sri Dr. Nagarajaiah request the honor of your presence with family and friends on the auspicious occasion of the wedding reception of their younger daughter Chi.Sou. Varshini T.N. with Chi.Ry. Chandan R. (S/o Smt. Anitha R. & Sri Rajashekar S.).",
+    closing: "Awaiting your gracious presence",
   },
 
   venue: {
@@ -47,6 +45,18 @@ window.WEDDING_DATA = {
     couple: "./editable/assets/couple.png",
     footerBg: "./editable/assets/footer-bg.jpg",
     map: "./editable/assets/map.jpg",
+  },
+
+  gallery: {
+    title: "Captured Moments",
+    subtitle: "Memories & Moments",
+    items: [
+      { src: "./editable/assets/gallery-1.jpg", alt: "Varshini & Chandan - Traditional portrait" },
+      { src: "./editable/assets/gallery-2.jpg", alt: "Varshini & Chandan - Cherished look" },
+      { src: "./editable/assets/gallery-3.jpg", alt: "Varshini & Chandan - Joyful dance" },
+      { src: "./editable/assets/gallery-4.jpg", alt: "Varshini & Chandan - Grand celebration" },
+      { src: "./editable/assets/gallery-5.jpg", alt: "Varshini & Chandan - Together forever" },
+    ],
   },
 
   music: {
