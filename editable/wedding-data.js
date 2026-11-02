@@ -4,6 +4,8 @@
  */
 
 window.WEDDING_DATA = {
+  hospitalName: "Happy Healthy hospital",
+
   couple: {
     bride: "Varshini",
     groom: "Chandan",
