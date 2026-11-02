@@ -243,37 +243,65 @@
         from { opacity: 0; }
         to { opacity: 1; }
       }
-      /* Happy Healthy hospital highlight badge */
+      /* Happy Healthy Hospital Highlight Badge */
       .hospital-highlight-wrap {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
         margin-bottom: 0.85rem;
+        text-align: center;
       }
       .hospital-highlight-badge {
         display: inline-flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-family: var(--font-caps, "Josefin Sans", -apple-system, sans-serif);
-        font-weight: 800;
-        font-size: 0.82rem;
-        letter-spacing: 0.12em;
-        color: #2b1d12;
-        background: linear-gradient(135deg, rgba(254, 240, 138, 0.6) 0%, rgba(245, 197, 66, 0.45) 50%, rgba(212, 160, 23, 0.38) 100%);
-        border: 1.5px solid rgba(184, 134, 11, 0.75);
+        gap: 2px;
+        text-align: center;
+        background: linear-gradient(135deg, rgba(254, 240, 138, 0.72) 0%, rgba(245, 197, 66, 0.55) 50%, rgba(212, 160, 23, 0.42) 100%);
+        border: 1.5px solid rgba(184, 134, 11, 0.85);
         border-radius: 9999px;
         padding: 5px 18px;
         box-shadow: 0 3px 14px rgba(184, 134, 11, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.85);
         backdrop-filter: blur(8px);
         -webkit-backdrop-filter: blur(8px);
-        text-shadow: 0 0 1px rgba(255, 255, 255, 0.4);
+        text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+        max-width: 95%;
+      }
+      @media (min-width: 520px) {
+        .hospital-highlight-badge {
+          flex-direction: row;
+          gap: 7px;
+          padding: 6px 22px;
+        }
+      }
+      .hospital-prefix {
+        font-family: var(--font-caps, "Josefin Sans", -apple-system, sans-serif);
+        font-size: 0.62rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #553e28;
+        font-weight: 600;
+        line-height: 1.25;
+      }
+      .hospital-title {
+        font-family: var(--font-caps, "Josefin Sans", -apple-system, sans-serif);
+        font-size: 0.82rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #221509;
+        font-weight: 800;
+        line-height: 1.25;
       }
       @media (min-width: 640px) {
-        .hospital-highlight-badge {
-          font-size: 0.95rem;
-          letter-spacing: 0.14em;
-          padding: 6px 22px;
+        .hospital-prefix {
+          font-size: 0.72rem;
+          letter-spacing: 0.18em;
+        }
+        .hospital-title {
+          font-size: 0.92rem;
+          letter-spacing: 0.12em;
         }
       }
     </style>

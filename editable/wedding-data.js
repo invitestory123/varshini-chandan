@@ -4,7 +4,9 @@
  */
 
 window.WEDDING_DATA = {
-  hospitalName: "Happy Healthy hospital",
+  hospitalPrefix: "From the family of",
+  hospitalName: "Happy Healthy Hospital",
+  hospitalText: "From the family of Happy Healthy Hospital",
 
   couple: {
     bride: "Varshini",
